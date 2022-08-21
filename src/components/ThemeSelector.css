@@ -1,0 +1,34 @@
+.theme-selector {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.theme-buttons div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.mode-toggle {
+  margin-right: auto;
+}
+
+.mode-toggle img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 426px) and( max-width: 768px) {
+  .theme-selector {
+    max-width: 137%;
+  }
+  .recipe-list {
+    grid-template-columns: 1fr;
+  }
+}
